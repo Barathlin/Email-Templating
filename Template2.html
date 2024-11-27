@@ -1,84 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Email Template</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    .email-container {
-      width: 100%;
-      max-width: 650px;
-      margin: auto;
-    }
-    .header, .footer {
-      background-color: #f4f4f4;
-      padding: 10px;
-      text-align: center;
-    }
-    .headline {
-      font-size: 24px;
-      color: #333;
-      margin: 20px 0;
-    }
-    .content-section {
-      padding: 15px;
-      line-height: 1.6;
-      font-size: 16px;
-    }
-    .cta-button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      font-size: 16px;
-      margin: 10px 0;
-    }
-    .footer a {
-      color: #007bff;
-      text-decoration: none;
-    }
-    @media only screen and (max-width: 480px) {
-      .headline {
-        font-size: 20px;
-      }
-      .cta-button {
-        font-size: 14px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .email-container {
+            width: 100%;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .header,
+        .footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .headline {
+            font-size: 24px;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        .content-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width: 480px) {
+            .headline {
+                font-size: 20px;
+            }
+
+            .cta-button {
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-  <div class="email-container">
-    <div class="header">
-      <h1>MCH Strategic Data</h1>
-      <p>Your Trusted Source for Educational Data Since 1927</p>
+    <div class="email-container">
+        <div class="header">
+            <h1>MCH Strategic Data</h1>
+            <p>Your Trusted Source for Educational Data Since 1927</p>
+        </div>
+        <div class="content-section">
+            <h2 class="headline">Reach K12 Educators with Trusted Data</h2>
+            <p>If you’re selling to schools, teachers, or districts, quality data can make all the difference in your
+                success. MCH Strategic Data has led the educational data industry since 1927...</p>
+            <a href="#" class="cta-button">Learn More</a>
+        </div>
+        <div class="content-section"style="border: solid 2px grey">
+            <h3>Our Offerings:</h3>
+            <ul>
+                <li>Schools: 129,931</li>
+                <li>School Districts: 18,594</li>
+                <li>Superintendent Emails: 12,602</li>
+            </ul>
+            <a href="#" class="cta-button">Try ListBuilder Now</a>
+            <img src="" />
+        </div>
+        <div class="footer">
+            <p>Contact us at <a href="mailto:info@mchdata.com">info@mchdata.com</a> | Call: 800-776-6373</p>
+            <p><a href="#">Unsubscribe</a></p>
+        </div>
     </div>
-    <div class="content-section">
-      <h2 class="headline">Reach K12 Educators with Trusted Data</h2>
-      <p>If you’re selling to schools, teachers, or districts, quality data can make all the difference in your success. MCH Strategic Data has led the educational data industry since 1927...</p>
-      <a href="#" class="cta-button">Learn More</a>
-    </div>
-    <div class="content-section">
-      <h3>Our Offerings:</h3>
-      <ul>
-        <li>Schools: 129,931</li>
-        <li>School Districts: 18,594</li>
-        <li>Superintendent Emails: 12,602</li>
-      </ul>
-      <a href="#" class="cta-button">Try ListBuilder Now</a>
-      <img src="" />
-    </div>
-    <div class="footer">
-      <p>Contact us at <a href="mailto:info@mchdata.com">info@mchdata.com</a> | Call: 800-776-6373</p>
-      <p><a href="#">Unsubscribe</a></p>
-    </div>
-  </div>
 </body>
+
 </html>
